@@ -38,12 +38,12 @@ class TestWin(QWidget):
         # memulai:
         self.show()
     
-    def next_click(self):
+    '''def next_click(self):
         self.tw = TestWin()
-        self.hide()
+        self.hide()'''
 
-    def connects(self):
-        self.btn_next.clicked.connect(self.next_click)
+    '''def connects(self):
+        self.btn_next.clicked.connect(self.next_click)'''
 
     ''' sets what the window will look like (label, size, location) '''
     def set_appear(self):
